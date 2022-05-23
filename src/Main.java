@@ -28,10 +28,8 @@ public class Main {
                 }
                 if(isRoma) {
                     try {
-                        RomanianNumber rNum1 = RomanianNumber.valueOf(numArray[0]);
-                        RomanianNumber rNum2 = RomanianNumber.valueOf(numArray[1]);
-                        num1 = rNum1.getNum();
-                        num2 = rNum2.getNum();
+                        num1 = RomanianNumber.valueOf(numArray[0]).getNum();
+                        num2 = RomanianNumber.valueOf(numArray[1]).getNum();
                     } catch (IllegalArgumentException e2) {
                         return "Недопустимые значения для чисел!(3)";
                     }
