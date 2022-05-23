@@ -7,6 +7,7 @@ public class Main {
         System.out.print("Введите пример:\n");
         System.out.println(calc(in.next()));
     }
+
     public static String calc(String input){
         int num1 = 0, num2 = 0;
         boolean isRoma = false;
